@@ -1,5 +1,5 @@
 body {
-    background-color: #000000;
+    background-color: #ffffff;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -11,3 +11,56 @@ body {
 h1 {
     padding: 10px;
 }
+
+.subnautica2 {
+    background-color: #00f7ff;
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor-2 {
+    background-color: #b61c1c;
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor-3 {
+    background-color: #4d0633;
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor-4 {
+    background-color: #0eae6e;
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor-5 {
+    background-color: #a3be1b;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.rubik-grid {
+    border-collapse: separate;
+    border-spacing: 6px;
+    margin: 1rem 0;
+}
+
+.rubik-cell {
+    width: 52px;
+    height: 52px;
+    padding: 0;
+    border: 3px solid #1a1a1a;
+    border-radius: 6px;
+    box-shadow:
+        inset 0 2px 0 rgba(255, 255, 255, 0.25),
+        inset 0 -3px 0 rgba(0, 0, 0, 0.35);
+}
+
+.rubik-w { background-color: #f5f5f5; }
+.rubik-y { background-color: #ffd500; }
+.rubik-r { background-color: #b90000; }
+.rubik-o { background-color: #ff5900; }
+.rubik-b { background-color: #0045ad; }
+.rubik-g { background-color: #009b48; }
+
